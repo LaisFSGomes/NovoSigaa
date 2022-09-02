@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovoSigaa | Painel de Controle</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>Painel de Controle</h1>
+  </header>
+  <nav>
+    <a href="/controlPanel.html">Painel de Controle </a>  |
+    <a href="/historico.html">Histórico</a>  |
+    <a href="/cadCompCurricular.html">Cadastro de Componentes Curriculares</a>  |
+    <a href="/index.html">SAIR</a>
+  </nav>
+  <main id="main">
+    <aside>
+      <img src="profile.png" width="60px"></img>
+      <h5>Nome: Lais Gomes</h5>
+      <h5>E-mail: laisgomes@alu.ufc.br</h5>
+      <h5>IRA: 7.8222</h5>
+      <h5>Créditos cursados: 2768 horas</h5>
+      <br>
+      <section>
+        <label for="color">Cor tema para o sigaa:</label>
+        <input type="color" id="colorTheme"/>
+      </section>
+      <br>
+      <hr/>
+    </aside>
+    <article>
+      <section id="disciplinas">
+        <h3>Disciplinas em Andamento</h3>
+        <ul>
+          <li>Probabilidade e Estatística</li>
+          <li>Tecnologias Web</li>
+          <li>Qualidade de Software</li>
+          <li>Algoritmos em Grafos</li>
+          <li>Microprocessadores</li>
+          <li>Seminário de Monografia</li>
+        </ul>
+        <br>
+        <hr/>
+      </section>
+      <section>
+        <h3>Progresso no Curso</h3>
+        <ul>
+          <li>
+            <label for="progress">Progresso total no curso:</label>
+            <progress id="progress" value="2768" max="3648"> 75.88% </progress>
+          </li>
+          <li>
+            <label for="progress">Progresso disciplinas obrigatórias:</label>
+            <progress id="progress" value="2160" max="2752"> 78.5% </progress>
+          </li>
+          <li>
+            <label for="progress">Progresso estágio obrigatório:</label>
+            <progress id="progress" value="192" max="192"> 100% </progress>
+          </li>
+          <li>
+            <label for="progress">Progresso horas optativas:</label>
+            <progress id="progress" value="736" max=" 896"> 82.14% </progress>
+          </li>
+          <li>
+            <label for="progress">Progresso horas complementares:</label>
+            <progress id="progress" value="176" max="0"> 0% </progress>
+          </li>
+          <li>
+            <label for="progress">Progresso horas de extensão:</label>
+            <progress id="progress" value="20" max="0"> 100% </progress>
+          </li>
+          <li>
+            <label for="progress">Progresso horas de programação:</label>
+            <progress id="progress" value="90" max="100"> 90% </progress>
+          </li>
+        </ul>
+        <br>
+        <hr/>
+      </section>
+      <section>  
+        <table border="1">
+          <caption><h3>Resumo</h3></caption>
+          <th>Carga horária total    </th>
+          <th>Carga horária cursada    </th>
+          <th>Pendente    </th>
+          <tbody>
+              <tr>
+                  <td>3648h</td>
+                  <td>2768h</td>
+                  <td>880h</td>
+              </tr>
+          </tbody>
+      </table>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <h6>Copyright © 2022 | Lais Gomes</h6>
+  </footer>
+</body>
+</html>

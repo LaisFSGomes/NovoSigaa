@@ -1,2 +1,2 @@
 # NovoSigaa
-Trabalho01 na disciplina de Tecnologias Web
+Trabalho 01 na disciplina de Tecnologias Web
