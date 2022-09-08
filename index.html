@@ -5,26 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo Sigaa</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1>Novo Sigaa</h1>
+      <div class="header">
+        <h1>Novo Sigaa</h1>
+      </div>
     </header>
     <main>
-      <form action="/controlPanel.html" method="get">
-        <label for="userNamme">Usuário:</label>
-        <input type="text" id="userNamme" name="userNamme" autofocus required>
-        <br/>
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password" required>
-        <br/>
-        <br/>
-        <button type="submit">Entrar</button>
-      </form> 
+      <div class="formulario">
+        <form action="/controlPanel.html" method="get">
+          <label for="userNamme">Usuário:</label>
+          <input type="text" id="userNamme" name="userNamme" autofocus required>
+          <br/>
+          <label for="password">Senha:</label>
+          <input type="password" id="password" name="password" required>
+          <br/>
+          <br/>
+          <button type="submit">Entrar</button>
+        </form> 
+      </div>
     </main>
-    <footer>
-      <h6>Copyright © 2022 | Lais Gomes</h6>
+    <footer id="footer" role="contentinfo">
+      <div class="footer-container">
+        <h6>Copyright © 2022 | Lais Gomes</h6>
+      </div>
     </footer>
   </body>
 </html>

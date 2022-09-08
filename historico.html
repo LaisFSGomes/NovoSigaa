@@ -7,22 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NovoSigaa | Histórico</title>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <h1>Histórico</h1>
+    <div class="header">
+      <h1>Novo Sigaa</h1>
+    </div>
   </header>
   <nav>
-    <a href="/controlPanel.html">Painel de Controle </a>  |
-    <a href="/historico.html">Histórico</a>  |
-    <a href="/cadCompCurricular.html">Cadastro de Componentes Curriculares</a>  |
-    <a href="/index.html">SAIR</a>
+    <div id="navbar">
+      <a href="/controlPanel.html">Painel de Controle </a> 
+      <a href="/historico.html">Histórico</a> 
+      <a href="/cadCompCurricular.html">Cadastro de Componentes Curriculares</a> 
+      <a href="/index.html">SAIR</a>
+    </div>
   </nav>
   <main id="main">
     <section id="historico">
-      <table border="1">
+      <table >
         <thead>
           <th>Disciplina</th>
           <th>Horas</th>
@@ -167,8 +171,10 @@
       </table>
     </section>
   </main>
-  <footer>
-    <h6>Copyright © 2022 | Lais Gomes</h6>
+  <footer id="footer" role="contentinfo">
+    <div class="footer-container">
+      <h6>Copyright © 2022 | Lais Gomes</h6>
+    </div>
   </footer>
 
 </body>

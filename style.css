@@ -1,0 +1,167 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: linear-gradient(197deg, rgba(28,24,102,1) 0%, rgba(74,6,139,1) 100%); 
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: rgb(28,24,102);
+}
+.header{
+  max-width: 175px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+}
+.header h1 {
+  color: #fdf9f6;
+}
+[id="navbar"] {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+}
+
+[id="navbar"] a {
+  text-decoration: none;
+  color: #fdf9f6;
+  margin: 0 3%;
+}
+
+main {
+  height: calc(100% - 95px);
+}
+.formulario {
+  max-width: 50vh;
+  margin: 25vh auto;
+  padding: 10%;
+  background: rgb(28,24,102);
+  border-radius: 3%;
+}
+.formulario form label{
+  color: #fdf9f6;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+.formulario form input{
+  display: inline;
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 1px solid#fdf9f6;
+  background-color: transparent;
+  color: #c2c2c2;
+}
+.formulario form button {
+  background-color: #fdf9f6;
+  color: rgb(28,24,102);
+  padding: 5px 1em;
+  border-radius: 10px;
+  display: block;
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#personal-informations {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fdf9f6;
+}
+
+#personal-informations img{
+  background: linear-gradient(197deg, rgba(210,208,255,1) 0%, rgba(253,249,246,1) 100%);
+  border-radius: 50%;
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#disciplinas {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fdf9f6;
+}
+
+#progresso {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fdf9f6;
+}
+#progresso progress{
+  background-color: #fdf9f6;
+  border: 1px solid #e0dedb ;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #C0C0C0;
+  padding: 1px;
+  width: 20vh;
+  height: 10px;
+}
+
+#resumo {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fdf9f6;
+  margin-bottom: 35px;
+}
+
+#resumo th {
+  padding: 0px 5px;
+}
+h3 {
+  margin: 15px 5px 10px 5px;
+}
+
+#historico {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fdf9f6;
+  margin-bottom: 35px;
+}
+
+#historico tr th {
+  font-weight: 500;
+  color: #f7f7f7;
+  padding: 3px 10px;
+}
+#historico thead th {
+  font-weight: 700;
+  color: #f7f7f7;
+  padding: 5px 10px;
+}
+
+#footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(28,24,102,1);
+  padding: 10px 0;
+}
+
+#footer .footer-container{
+  width: 163px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fdf9f6;
+}

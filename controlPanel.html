@@ -7,23 +7,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NovoSigaa | Painel de Controle</title>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
-    <h1>Painel de Controle</h1>
+    <div class="header">
+      <h1>Novo Sigaa</h1>
+    </div>
   </header>
   <nav>
-    <a href="/controlPanel.html">Painel de Controle </a> |
-    <a href="/historico.html">Histórico</a> |
-    <a href="/cadCompCurricular.html">Cadastro de Componentes Curriculares</a> |
-    <a href="/index.html">SAIR</a>
+    <div id="navbar">
+      <a href="/controlPanel.html">Painel de Controle </a> 
+      <a href="/historico.html">Histórico</a> 
+      <a href="/cadCompCurricular.html">Cadastro de Componentes Curriculares</a> 
+      <a href="/index.html">SAIR</a>
+    </div>
   </nav>
   <main id="main">
     <article>
-      <section>
-        <img src="profile.png" height="100px"/>
+      <section id="personal-informations">
+        <img src="person.svg" height="100px" style="color: white"/>
         <h5>Nome: Lais Gomes</h5>
         <h5>E-mail: laisgomes@alu.ufc.br</h5>
         <h5>IRA: 7.82</h5>
@@ -33,7 +37,6 @@
           <label for="color">Cor tema para o SIGAA:</label>
           <input type="color" id="colorTheme" value="#FF4422" />
         </section>
-        <br>
         <hr />
       </section>
       <section id="disciplinas">
@@ -46,10 +49,9 @@
           <li>Microprocessadores</li>
           <li>Seminário de Monografia</li>
         </ul>
-        <br>
         <hr />
       </section>
-      <section>
+      <section id="progresso">
         <h3>Progresso no Curso</h3>
         <ul>
           <li>
@@ -91,8 +93,8 @@
         <br>
         <hr />
       </section>
-      <section>
-        <table border="1">
+      <section id="resumo">
+        <table >
           <caption>
             <h3>Resumo</h3>
           </caption>
@@ -110,8 +112,10 @@
       </section>
     </article>
   </main>
-  <footer>
-    <h6>Copyright © 2022 | Lais Gomes</h6>
+  <footer id="footer" role="contentinfo">
+    <div class="footer-container">
+      <h6>Copyright © 2022 | Lais Gomes</h6>
+    </div>
   </footer>
 </body>
 
